@@ -3,7 +3,7 @@
 module.exports = {
   async up(queryInterface, Sequelize) {
     await queryInterface.addColumn(
-      'categories',
+      'Categories',
       'path',
 
       {
@@ -13,6 +13,6 @@ module.exports = {
   },
 
   async down(queryInterface, Sequelize) {
-    await queryInterface.revoveColumn('categories', 'path')
+    await queryInterface.removeColumn('Categories', 'path')
   },
 }
