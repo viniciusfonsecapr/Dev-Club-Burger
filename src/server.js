@@ -1,6 +1,5 @@
 const app = require('./app')
 
-
 //ajustes 
 
 // import app from ''
