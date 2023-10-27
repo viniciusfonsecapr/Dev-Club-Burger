@@ -12,7 +12,9 @@ import OrderController from './app/controllers/OrderController.js'
 
 import authMiddleware from './app/middlewares/auth.js'
 
-
+routes.get('/', (req,res) => {
+    return res.json({message: 'Hello To My First API'})
+})
 
 const upload = multer(multerConfig)
 
