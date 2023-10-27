@@ -24,11 +24,13 @@ class Database {
       )
   }
   mongo() {
+    mongoose.set("strictQuery", false);
     this.mongoConnection = mongoose.connect(
      "mongodb://mongo:OQSv1pMsRliUvgu18iJd@containers-us-west-71.railway.app:6686",
       {
         useNewUrlParser:true,
-        useUnifiedTopology:true,
+        useUnifiedTopology:true
+
       }
     )
   }
