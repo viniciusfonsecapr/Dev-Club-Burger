@@ -9,16 +9,15 @@ import UserController from './app/controllers/UserController.js'
 import CategoryController from './app/controllers/CategoryController.js'
 import OrderController from './app/controllers/OrderController.js'
 
-
 import authMiddleware from './app/middlewares/auth.js'
-
-routes.get('/', (req,res) => {
-    return res.json({message: 'Hello To My First API'})
-})
 
 const upload = multer(multerConfig)
 
 const routes = new Router()
+
+routes.get(`/`, (req,res) => {
+    return res.json({message: 'Hello To My First API'})
+})
 
 routes.post(`/users`, UserController.store)
 
