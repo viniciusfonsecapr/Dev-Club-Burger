@@ -1,8 +1,8 @@
-const app = require('./app')
+// const app = require('')
 
-//ajustes 
+// //ajustes 
 
-// import app from ''
+import app from './app'
 
 
 
