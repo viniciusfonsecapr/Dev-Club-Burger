@@ -10,7 +10,7 @@ import CategoryController from './app/controllers/CategoryController.js'
 import OrderController from './app/controllers/OrderController.js'
 
 
-import authMiddleware from './app/middlewares/auth'
+import authMiddleware from './app/middlewares/auth.js'
 
 
 

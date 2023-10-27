@@ -1,6 +1,8 @@
 
 import jsonwebtoken from 'jsonwebtoken'
-const authConfig = require('../../config/auth.js')
+// const authConfig = require('../../config/auth.js')
+
+import authConfig from '../../config/auth.js'
 
 
 export default (request, response, next) => {
