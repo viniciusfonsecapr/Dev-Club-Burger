@@ -1,9 +1,10 @@
 {
   "name": "code-club-burger",
   "version": "1.0.0",
+  "type": "module",
   "description": "",
   "main": "src/server.js",
-  "type": "module",
+
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
@@ -37,5 +38,6 @@
     "prettier": "^2.6.1",
     "sequelize-cli": "^6.4.1",
     "sucrase": "^3.21.0"
-  }
+  },
+  "type": "module"
 }
