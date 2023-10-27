@@ -5,7 +5,7 @@ import Category from '../app/models/Category.js'
 import Product from '../app/models/Product.js'
 import User from '../app/models/User.js'
 
-import configDataBase from '../config/database'
+// import configDataBase from '../config/database'
 
 const models = [User, Product, Category]
 
