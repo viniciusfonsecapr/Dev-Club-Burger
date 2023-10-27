@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon",
-    "debug": "--inspect"
+    "debug": "--inspect",
+    "start": "NODE_OPTIONS='--experimental-specifier-resolution=node' node src/server.js"
   },
   "keywords": [],
   "author": "",
