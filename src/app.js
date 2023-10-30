@@ -11,12 +11,16 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 
+const corsOptions = {
+  origin:'https://dev-burger-interface.vercel.app',
+  credentials: true
+}
 
 import './database/index.js'
 class App {
   constructor() {
     this.app = express();
-    this.app.use(cors());
+    this.app.use(cors(corsOptions));
     this.middlewares();
     this.routes();
 
