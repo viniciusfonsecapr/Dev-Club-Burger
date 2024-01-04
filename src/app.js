@@ -12,17 +12,11 @@ const __dirname = path.dirname(__filename);
 
 
 
-// const corsOptions = {
-//   origin:'https://dev-burger-interface.vercel.app',
-//   credentials: true
-// }
-
-
-const corsOptions ={
-  origin:'http://localhost:3000', 
-  credentials:true,            //access-control-allow-credentials:true
-  optionSuccessStatus:200
+const corsOptions = {
+  origin:'https://dev-burger-interface.vercel.app',
+  credentials: true
 }
+
 
 import './database/index.js'
 class App {
